@@ -1,12 +1,15 @@
 #!/usr/bin/python3
 """ Module docuemented """
 
+
 def canUnlockAll(boxes):
     """
-    Determines if all boxes can be unlocked given the initial unlocked state of the first box.
+    Determines if all boxes can be unlocked given the initial
+    unlocked state of the first box.
 
     Args:
-        boxes (list of lists): A list where each element is a list containing keys to other boxes.
+        boxes (list of lists): A list where each element is a list
+        containing keys to other boxes.
 
     Returns:
         bool: True if all boxes can be unlocked, False otherwise.
